@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ClassicTableController
+//  TwoTables
 //
-//  Created by Miya on 2/11/23.
+//  Created by Miya on 2/15/23.
 //
 
 import UIKit

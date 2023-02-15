@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61674D4B299863830076CF0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61674D4A299863830076CF0B /* AppDelegate.swift */; };
-		61674D4D299863830076CF0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61674D4C299863830076CF0B /* SceneDelegate.swift */; };
-		61674D4F299863830076CF0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61674D4E299863830076CF0B /* ViewController.swift */; };
-		61674D52299863830076CF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61674D50299863830076CF0B /* Main.storyboard */; };
-		61674D54299863840076CF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61674D53299863840076CF0B /* Assets.xcassets */; };
-		61674D57299863840076CF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61674D55299863840076CF0B /* LaunchScreen.storyboard */; };
+		61674DAF299D5F980076CF0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61674DAE299D5F980076CF0B /* AppDelegate.swift */; };
+		61674DB1299D5F980076CF0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61674DB0299D5F980076CF0B /* SceneDelegate.swift */; };
+		61674DB3299D5F980076CF0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61674DB2299D5F980076CF0B /* ViewController.swift */; };
+		61674DB6299D5F980076CF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61674DB4299D5F980076CF0B /* Main.storyboard */; };
+		61674DB8299D5F990076CF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61674DB7299D5F990076CF0B /* Assets.xcassets */; };
+		61674DBB299D5F990076CF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61674DB9299D5F990076CF0B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61674D47299863830076CF0B /* ClassicTableController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicTableController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		61674D4A299863830076CF0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61674D4C299863830076CF0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61674D4E299863830076CF0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		61674D51299863830076CF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		61674D53299863840076CF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		61674D56299863840076CF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		61674D58299863840076CF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61674DAB299D5F980076CF0B /* TwoTables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoTables.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61674DAE299D5F980076CF0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61674DB0299D5F980076CF0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61674DB2299D5F980076CF0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61674DB5299D5F980076CF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61674DB7299D5F990076CF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61674DBA299D5F990076CF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61674DBC299D5F990076CF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61674D44299863830076CF0B /* Frameworks */ = {
+		61674DA8299D5F980076CF0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		61674D3E299863830076CF0B = {
+		61674DA2299D5F980076CF0B = {
 			isa = PBXGroup;
 			children = (
-				61674D49299863830076CF0B /* ClassicTableController */,
-				61674D48299863830076CF0B /* Products */,
+				61674DAD299D5F980076CF0B /* TwoTables */,
+				61674DAC299D5F980076CF0B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		61674D48299863830076CF0B /* Products */ = {
+		61674DAC299D5F980076CF0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61674D47299863830076CF0B /* ClassicTableController.app */,
+				61674DAB299D5F980076CF0B /* TwoTables.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		61674D49299863830076CF0B /* ClassicTableController */ = {
+		61674DAD299D5F980076CF0B /* TwoTables */ = {
 			isa = PBXGroup;
 			children = (
-				61674D4A299863830076CF0B /* AppDelegate.swift */,
-				61674D4C299863830076CF0B /* SceneDelegate.swift */,
-				61674D4E299863830076CF0B /* ViewController.swift */,
-				61674D50299863830076CF0B /* Main.storyboard */,
-				61674D53299863840076CF0B /* Assets.xcassets */,
-				61674D55299863840076CF0B /* LaunchScreen.storyboard */,
-				61674D58299863840076CF0B /* Info.plist */,
+				61674DAE299D5F980076CF0B /* AppDelegate.swift */,
+				61674DB0299D5F980076CF0B /* SceneDelegate.swift */,
+				61674DB2299D5F980076CF0B /* ViewController.swift */,
+				61674DB4299D5F980076CF0B /* Main.storyboard */,
+				61674DB7299D5F990076CF0B /* Assets.xcassets */,
+				61674DB9299D5F990076CF0B /* LaunchScreen.storyboard */,
+				61674DBC299D5F990076CF0B /* Info.plist */,
 			);
-			path = ClassicTableController;
+			path = TwoTables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61674D46299863830076CF0B /* ClassicTableController */ = {
+		61674DAA299D5F980076CF0B /* TwoTables */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61674D5B299863840076CF0B /* Build configuration list for PBXNativeTarget "ClassicTableController" */;
+			buildConfigurationList = 61674DBF299D5F990076CF0B /* Build configuration list for PBXNativeTarget "TwoTables" */;
 			buildPhases = (
-				61674D43299863830076CF0B /* Sources */,
-				61674D44299863830076CF0B /* Frameworks */,
-				61674D45299863830076CF0B /* Resources */,
+				61674DA7299D5F980076CF0B /* Sources */,
+				61674DA8299D5F980076CF0B /* Frameworks */,
+				61674DA9299D5F980076CF0B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ClassicTableController;
-			productName = ClassicTableController;
-			productReference = 61674D47299863830076CF0B /* ClassicTableController.app */;
+			name = TwoTables;
+			productName = TwoTables;
+			productReference = 61674DAB299D5F980076CF0B /* TwoTables.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		61674D3F299863830076CF0B /* Project object */ = {
+		61674DA3299D5F980076CF0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					61674D46299863830076CF0B = {
+					61674DAA299D5F980076CF0B = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 61674D42299863830076CF0B /* Build configuration list for PBXProject "ClassicTableController" */;
+			buildConfigurationList = 61674DA6299D5F980076CF0B /* Build configuration list for PBXProject "TwoTables" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 61674D3E299863830076CF0B;
-			productRefGroup = 61674D48299863830076CF0B /* Products */;
+			mainGroup = 61674DA2299D5F980076CF0B;
+			productRefGroup = 61674DAC299D5F980076CF0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61674D46299863830076CF0B /* ClassicTableController */,
+				61674DAA299D5F980076CF0B /* TwoTables */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61674D45299863830076CF0B /* Resources */ = {
+		61674DA9299D5F980076CF0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61674D57299863840076CF0B /* LaunchScreen.storyboard in Resources */,
-				61674D54299863840076CF0B /* Assets.xcassets in Resources */,
-				61674D52299863830076CF0B /* Main.storyboard in Resources */,
+				61674DBB299D5F990076CF0B /* LaunchScreen.storyboard in Resources */,
+				61674DB8299D5F990076CF0B /* Assets.xcassets in Resources */,
+				61674DB6299D5F980076CF0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		61674D43299863830076CF0B /* Sources */ = {
+		61674DA7299D5F980076CF0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61674D4F299863830076CF0B /* ViewController.swift in Sources */,
-				61674D4B299863830076CF0B /* AppDelegate.swift in Sources */,
-				61674D4D299863830076CF0B /* SceneDelegate.swift in Sources */,
+				61674DB3299D5F980076CF0B /* ViewController.swift in Sources */,
+				61674DAF299D5F980076CF0B /* AppDelegate.swift in Sources */,
+				61674DB1299D5F980076CF0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		61674D50299863830076CF0B /* Main.storyboard */ = {
+		61674DB4299D5F980076CF0B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				61674D51299863830076CF0B /* Base */,
+				61674DB5299D5F980076CF0B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		61674D55299863840076CF0B /* LaunchScreen.storyboard */ = {
+		61674DB9299D5F990076CF0B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				61674D56299863840076CF0B /* Base */,
+				61674DBA299D5F990076CF0B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		61674D59299863840076CF0B /* Debug */ = {
+		61674DBD299D5F990076CF0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		61674D5A299863840076CF0B /* Release */ = {
+		61674DBE299D5F990076CF0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		61674D5C299863840076CF0B /* Debug */ = {
+		61674DC0299D5F990076CF0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ClassicTableController/Info.plist;
+				INFOPLIST_FILE = TwoTables/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.mengyunxie.ClassicTableController;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.mengyunxie.TwoTables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		61674D5D299863840076CF0B /* Release */ = {
+		61674DC1299D5F990076CF0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ClassicTableController/Info.plist;
+				INFOPLIST_FILE = TwoTables/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.mengyunxie.ClassicTableController;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.mengyunxie.TwoTables;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61674D42299863830076CF0B /* Build configuration list for PBXProject "ClassicTableController" */ = {
+		61674DA6299D5F980076CF0B /* Build configuration list for PBXProject "TwoTables" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61674D59299863840076CF0B /* Debug */,
-				61674D5A299863840076CF0B /* Release */,
+				61674DBD299D5F990076CF0B /* Debug */,
+				61674DBE299D5F990076CF0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61674D5B299863840076CF0B /* Build configuration list for PBXNativeTarget "ClassicTableController" */ = {
+		61674DBF299D5F990076CF0B /* Build configuration list for PBXNativeTarget "TwoTables" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61674D5C299863840076CF0B /* Debug */,
-				61674D5D299863840076CF0B /* Release */,
+				61674DC0299D5F990076CF0B /* Debug */,
+				61674DC1299D5F990076CF0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 61674D3F299863830076CF0B /* Project object */;
+	rootObject = 61674DA3299D5F980076CF0B /* Project object */;
 }
