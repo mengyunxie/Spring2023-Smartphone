@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="303" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="SevenWonders" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="308" height="303"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="308" height="303"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFf-MM-l9b">
+                        <rect key="frame" x="5" y="5" width="298" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Q0m-ej-mlR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="ngx-fO-7to">
+                        <rect key="frame" x="5" y="35" width="298" height="263"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ngx-fO-7to" secondAttribute="bottom" constant="5" id="EFA-g1-vu9"/>
+                    <constraint firstAttribute="trailing" secondItem="NFf-MM-l9b" secondAttribute="trailing" constant="5" id="NIx-Wo-TOO"/>
+                    <constraint firstAttribute="trailing" secondItem="ngx-fO-7to" secondAttribute="trailing" constant="5" id="NWn-6T-Zbf"/>
+                    <constraint firstItem="NFf-MM-l9b" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="QNO-Bh-7rO"/>
+                    <constraint firstItem="NFf-MM-l9b" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="blE-0r-EoO"/>
+                    <constraint firstItem="ngx-fO-7to" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="h3z-lJ-X28"/>
+                    <constraint firstItem="ngx-fO-7to" firstAttribute="top" secondItem="NFf-MM-l9b" secondAttribute="bottom" constant="5" id="o0h-X0-Vjk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgContainer" destination="ngx-fO-7to" id="ZJ3-rn-bv9"/>
+                <outlet property="lblTitle" destination="NFf-MM-l9b" id="bdN-gJ-Jta"/>
+            </connections>
+            <point key="canvasLocation" x="91.603053435114504" y="110.91549295774648"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="0" width="300" height="150"/>
+    </resources>
+</document>
