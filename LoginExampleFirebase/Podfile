@@ -6,6 +6,6 @@ target 'LoginExampleFirebase' do
   use_frameworks!
 
   # Pods for LoginExampleFirebase
-    pod 'FirebaseAnalytics'
     pod 'FirebaseAuth'
+    pod 'KeychainSwift', '~> 20.0'
 end
