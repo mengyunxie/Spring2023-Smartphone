@@ -10,6 +10,7 @@
 		610CC96929C63AF000D26716 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6177374B29C5268F00DFC8A4 /* GoogleService-Info.plist */; };
 		610CC96C29C63E8000D26716 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610CC96B29C63E8000D26716 /* StringExtensions.swift */; };
 		610E987329C6438500F2C5C0 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E987229C6438500F2C5C0 /* KeychainService.swift */; };
+		6149C55D29CA3A380075060E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149C55C29CA3A380075060E /* RegisterViewController.swift */; };
 		6177373529C5107400DFC8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6177373429C5107400DFC8A4 /* AppDelegate.swift */; };
 		6177373729C5107400DFC8A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6177373629C5107400DFC8A4 /* SceneDelegate.swift */; };
 		6177373929C5107400DFC8A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6177373829C5107400DFC8A4 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		610CC96B29C63E8000D26716 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		610E987229C6438500F2C5C0 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		6149C55C29CA3A380075060E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		6177373129C5107400DFC8A4 /* LoginExampleFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginExampleFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6177373429C5107400DFC8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6177373629C5107400DFC8A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,31 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		6149C55729CA391F0075060E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6177373829C5107400DFC8A4 /* ViewController.swift */,
+				6177374929C519C400DFC8A4 /* DashboardViewController.swift */,
+				6149C55C29CA3A380075060E /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6149C55829CA39280075060E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6149C55929CA39320075060E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6177373A29C5107400DFC8A4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6177372829C5107400DFC8A4 = {
 			isa = PBXGroup;
 			children = (
@@ -88,16 +115,16 @@
 		6177373329C5107400DFC8A4 /* LoginExampleFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				6149C55729CA391F0075060E /* Controller */,
+				6149C55929CA39320075060E /* View */,
+				6149C55829CA39280075060E /* Model */,
 				610CC96A29C63D1800D26716 /* Utilities */,
 				6177373429C5107400DFC8A4 /* AppDelegate.swift */,
 				6177373629C5107400DFC8A4 /* SceneDelegate.swift */,
-				6177373829C5107400DFC8A4 /* ViewController.swift */,
-				6177373A29C5107400DFC8A4 /* Main.storyboard */,
 				6177373D29C5107500DFC8A4 /* Assets.xcassets */,
 				6177373F29C5107500DFC8A4 /* LaunchScreen.storyboard */,
 				6177374B29C5268F00DFC8A4 /* GoogleService-Info.plist */,
 				6177374229C5107500DFC8A4 /* Info.plist */,
-				6177374929C519C400DFC8A4 /* DashboardViewController.swift */,
 			);
 			path = LoginExampleFirebase;
 			sourceTree = "<group>";
@@ -229,6 +256,7 @@
 			files = (
 				6177373929C5107400DFC8A4 /* ViewController.swift in Sources */,
 				6177373529C5107400DFC8A4 /* AppDelegate.swift in Sources */,
+				6149C55D29CA3A380075060E /* RegisterViewController.swift in Sources */,
 				610CC96C29C63E8000D26716 /* StringExtensions.swift in Sources */,
 				6177373729C5107400DFC8A4 /* SceneDelegate.swift in Sources */,
 				6177374A29C519C400DFC8A4 /* DashboardViewController.swift in Sources */,

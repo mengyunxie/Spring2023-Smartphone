@@ -19,8 +19,3 @@ extension String {
         return passwordRegEx.evaluate(with: self)
     }
 }
-
-
-
-
-

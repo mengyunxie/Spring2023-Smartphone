@@ -66,5 +66,9 @@ class ViewController: UIViewController {
             strongSelf.performSegue(withIdentifier: "segueDashboard", sender: strongSelf)
         }
     }
+    
+    @IBAction func registerAction(_ sender: Any) {
+        performSegue(withIdentifier: "segueRegister", sender: self)
+    }
+    
 }
-
