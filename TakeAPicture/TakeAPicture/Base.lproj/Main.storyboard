@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TakeAPicture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Swt-2f-RHy">
+                                <rect key="frame" x="10" y="70.666666666666657" width="373" height="297"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="kxM-If-yf7"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qY7-2e-wfr">
+                                <rect key="frame" x="10" y="389" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gjC-BN-aP6"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Take a Picture"/>
+                                <connections>
+                                    <action selector="takeAPictureAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PNI-mC-Ph9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbI-7d-ird">
+                                <rect key="frame" x="10" y="449" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GRb-m4-hRl"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Scan QR Code"/>
+                                <connections>
+                                    <action selector="scanQRCodeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fqi-ml-9gk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scanned text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgE-Pg-s1S">
+                                <rect key="frame" x="10" y="509" width="373" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="0g6-pg-Dd2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wgE-Pg-s1S" firstAttribute="top" secondItem="gbI-7d-ird" secondAttribute="bottom" constant="20" id="2fx-Va-DhO"/>
+                            <constraint firstItem="qY7-2e-wfr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="F3p-SL-IkQ"/>
+                            <constraint firstItem="Swt-2f-RHy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Ff5-jp-vwV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gbI-7d-ird" secondAttribute="trailing" constant="10" id="FiG-p3-ZL4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wgE-Pg-s1S" secondAttribute="trailing" constant="10" id="Fq6-ta-oDx"/>
+                            <constraint firstItem="wgE-Pg-s1S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="N2v-Z0-9rc"/>
+                            <constraint firstItem="qY7-2e-wfr" firstAttribute="top" secondItem="Swt-2f-RHy" secondAttribute="bottom" constant="20" id="N5R-hT-4aZ"/>
+                            <constraint firstItem="gbI-7d-ird" firstAttribute="top" secondItem="qY7-2e-wfr" secondAttribute="bottom" constant="20" id="dEg-cW-jBp"/>
+                            <constraint firstItem="Swt-2f-RHy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="hOL-Cl-FAy"/>
+                            <constraint firstItem="gbI-7d-ird" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="pW5-iG-EkK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qY7-2e-wfr" secondAttribute="trailing" constant="10" id="t7u-TL-0Tf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Swt-2f-RHy" secondAttribute="trailing" constant="10" id="u87-2w-cbJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="IblScannedText" destination="wgE-Pg-s1S" id="jN5-3K-1UR"/>
+                        <outlet property="imgView" destination="Swt-2f-RHy" id="U3e-9t-dWR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="photo" catalog="system" width="128" height="93"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
