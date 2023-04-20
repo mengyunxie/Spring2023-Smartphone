@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>339177998643-1l4vmbrjmn41uau10tubus7fukqd8aq7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.339177998643-1l4vmbrjmn41uau10tubus7fukqd8aq7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBTTeMw1NlFbF-sMSmCd21LC9CrECr-H70</string>
+	<key>GCM_SENDER_ID</key>
+	<string>339177998643</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.northeastern.mengyunxie.InstaPicture</string>
+	<key>PROJECT_ID</key>
+	<string>instapicture-25248</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instapicture-25248.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:339177998643:ios:534933474fe81afebd1646</string>
+</dict>
+</plist>
